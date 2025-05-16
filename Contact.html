@@ -3,40 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Veridiana Photography - Contact</title>
+  <title>Contact - Veridiana Photography</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Veridiana Photography</h1>
-    <p>Photographe indépendante - Famille, naissances, grossesse & plus encore ...</p>
+    <h1>Contact</h1>
   </header>
-
   <nav>
-    <a href="index.html">Accueil</a>
+    <a href="index.html">Qui suis-je ?</a>
     <a href="mariage.html">Mariage</a>
     <a href="naissance.html">Naissance</a>
     <a href="grossesse.html">Grossesse</a>
     <a href="famille.html">Famille</a>
     <a href="bapteme.html">Baptême</a>
-    <a href="autres.html">Autres</a>
+    <a href="autre.html">Autres</a>
     <a href="tarifs.html">Tarifs</a>
     <a href="contact.html">Contact</a>
   </nav>
 
-  <section>
+  <section id="contact">
     <h2>Contactez-moi</h2>
-    <form action="mailto:tonemail@example.com" method="post" enctype="text/plain">
-      <label for="name">Nom :</label>
-      <input type="text" id="name" name="name" required />
+    <p>Vous souhaitez réserver une séance ou obtenir des informations ?</p>
+    <form action="mailto:veridiana.van.eyck@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Nom :</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
 
-      <label for="email">Email :</label>
-      <input type="email" id="email" name="email" required />
+      <label for="email">Email :</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
 
-      <label for="message">Message :</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+      <label for="message">Message :</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
 
-      <button type="submit">Envoyer</button>
+      <input type="submit" value="Envoyer" />
     </form>
   </section>
 
